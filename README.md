@@ -54,7 +54,7 @@ def main():
     queue.join()
 
     print("\nActive Hosts:")
-    print("--" * 30)
+    print("-" * 30)
 
     if active_hosts:
 
