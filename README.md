@@ -6,7 +6,7 @@ active_hosts = []
 queue = Queue()
 
 
-def scan_ip(ip):
+def scan_ip(ipp):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sock.settimeout(0.3)
 
