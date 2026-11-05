@@ -1,4 +1,4 @@
-import socket0
+import socket
 import threading
 from queue import Queue
 
